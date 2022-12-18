@@ -71,7 +71,7 @@ ul {
    bottom: -90px;
 }
 
-.main-header__item:hover > .main-header__list__sublist {
+/* .main-header__item:hover > .main-header__list__sublist {
    display: block;
 }
 .main-header__item__subitem:hover > .main-header__list__subsublist__women {
@@ -81,5 +81,9 @@ ul {
    display: block;
 }
 .main-header__item__subitem:hover > .main-header__list__subsublist__children {
+   display: block;
+} */
+
+li:hover>ul {
    display: block;
 }
